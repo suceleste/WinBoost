@@ -16,8 +16,8 @@ Important: You must replace YOUR_RAW_SCRIPT_URL_HERE with the actual raw URL of 
 
 PowerShell
 
-powershell -ExecutionPolicy Bypass -Command "irm 'YOUR_RAW_SCRIPT_URL_HERE' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"
-This command downloads the script to your temporary folder, then immediately runs it as an administrator.
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/edit/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"
 
 ✨ Features
 Single-File: No installation, just one .bat script.
