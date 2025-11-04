@@ -14,8 +14,9 @@ Copy and paste the following command, then press Enter.
 
 PowerShell
 
-```powershell
-powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/edit/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"```
+```PowerShell
+powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/edit/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"
+```
 
 ✨ Features
 Single-File: No installation, just one .bat script.
