@@ -15,7 +15,7 @@ Copy and paste the following command, then press Enter.
 PowerShell
 
 ```PowerShell
-powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/blob/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"
+powershell -ExecutionPolicy Bypass -Command "irm 'https://raw.githubusercontent.com/suceleste/WinBoost/refs/heads/main/WinBoost.bat' -o $env:USERPROFILE\winboost.bat; Start-Process $env:USERPROFILE\winboost.bat -Verb RunAs"
 ```
 
 ✨ Features
