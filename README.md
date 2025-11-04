@@ -12,12 +12,10 @@ Press Win + X and select "Terminal (Admin)" or "PowerShell (Admin)".
 
 Copy and paste the following command, then press Enter.
 
-Important: You must replace YOUR_RAW_SCRIPT_URL_HERE with the actual raw URL of your WinBoost.bat file. (To get the link: go to your WinBoost.bat file on GitHub, click the "Raw" button, and copy the URL from your browser's address bar.)
-
 PowerShell
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/edit/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"
+powershell -ExecutionPolicy Bypass -Command "irm 'https://github.com/suceleste/WinBoost/edit/main/WinBoost.bat' -o $env:TEMP\winboost.bat; Start-Process $env:TEMP\winboost.bat -Verb RunAs"```
 
 ✨ Features
 Single-File: No installation, just one .bat script.
